@@ -3,7 +3,7 @@
 // Default Route.
 $this->map(
     "GET",
-    $_ENV["BASE_FOLDER"] . "/",
+    "/",
     function () {
         $response = [
             "data"   => NULL,
