@@ -1,8 +1,9 @@
 {
     "name": "vaelar/nova",
     "description": "Nova API Project",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "type": "project",
+    "license": "proprietary",
     "require": {
       "vaelar/nova-api": "^0.1.3",
       "vlucas/phpdotenv": "^5.5"
@@ -16,6 +17,12 @@
       "sort-packages": true,
       "optimize-autoloader": true
     },
+    "authors": [
+        {
+            "name": "Will",
+            "email": "admin@willvachon.co.uk"
+        }
+    ],
     "scripts": {
       "post-root-package-install": [
         "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
