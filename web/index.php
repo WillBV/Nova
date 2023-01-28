@@ -1,7 +1,6 @@
 <?php
 
 require dirname(__DIR__) . "/config/constants.php";
-
 require_once NOVA_VENDOR_PATH.'/autoload.php';
 
 if (class_exists('Dotenv\Dotenv') && file_exists(NOVA_BASE_PATH . '/.env')) {

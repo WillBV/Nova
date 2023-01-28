@@ -1,6 +1,6 @@
 {
     "require": {
-      "vaelar/nova-api": "^0.1.3",
+      "vaelar/nova-api": "~0.1",
       "vlucas/phpdotenv": "^5.5"
     },
     "autoload": {
