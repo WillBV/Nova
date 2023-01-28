@@ -1,7 +1,7 @@
 {
     "name": "vaelar/nova",
     "description": "Nova API Project",
-    "version": "0.1.11",
+    "version": "0.1.12",
     "type": "project",
     "license": "proprietary",
     "require": {
