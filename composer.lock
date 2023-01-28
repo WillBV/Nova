@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "07385b5b99a00297ea07ad28d9ce6b7c",
+    "content-hash": "e9a542155a3bf1d4d141f5f5aae1366d",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -890,6 +890,62 @@
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
+            "name": "squizlabs/php_codesniffer",
+            "version": "3.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+                "reference": "1359e176e9307e906dc3d890bcc9603ff6d90619"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/1359e176e9307e906dc3d890bcc9603ff6d90619",
+                "reference": "1359e176e9307e906dc3d890bcc9603ff6d90619",
+                "shasum": ""
+            },
+            "require": {
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0"
+            },
+            "bin": [
+                "bin/phpcs",
+                "bin/phpcbf"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Sherwood",
+                    "role": "lead"
+                }
+            ],
+            "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+            "homepage": "https://github.com/squizlabs/PHP_CodeSniffer",
+            "keywords": [
+                "phpcs",
+                "standards"
+            ],
+            "support": {
+                "issues": "https://github.com/squizlabs/PHP_CodeSniffer/issues",
+                "source": "https://github.com/squizlabs/PHP_CodeSniffer",
+                "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
+            },
+            "time": "2022-06-18T07:21:10+00:00"
+        },
+        {
             "name": "symfony/deprecation-contracts",
             "version": "v3.2.0",
             "source": {
@@ -1206,16 +1262,16 @@
         },
         {
             "name": "vaelar/nova-api",
-            "version": "0.1.3",
+            "version": "0.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WillBV/Nova-API.git",
-                "reference": "bc54318fe2102a7a80ff0ba9c13f78e67bf9f1f7"
+                "reference": "0b9475312f05760eee2779bd92e56fd41220672c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WillBV/Nova-API/zipball/bc54318fe2102a7a80ff0ba9c13f78e67bf9f1f7",
-                "reference": "bc54318fe2102a7a80ff0ba9c13f78e67bf9f1f7",
+                "url": "https://api.github.com/repos/WillBV/Nova-API/zipball/0b9475312f05760eee2779bd92e56fd41220672c",
+                "reference": "0b9475312f05760eee2779bd92e56fd41220672c",
                 "shasum": ""
             },
             "require": {
@@ -1223,12 +1279,10 @@
                 "guzzlehttp/guzzle": "^7.5",
                 "monolog/monolog": "^3.2",
                 "php": ">=8.1.0",
+                "squizlabs/php_codesniffer": "^3.7",
                 "vlucas/phpdotenv": "^5.5"
             },
-            "require-dev": {
-                "squizlabs/php_codesniffer": "^3.7"
-            },
-            "type": "project",
+            "type": "library",
             "autoload": {
                 "psr-4": {
                     "nova\\": "src/"
@@ -1244,12 +1298,12 @@
                     "email": "admin@willvachon.co.uk"
                 }
             ],
-            "description": "Nova API",
+            "description": "Nova API Library",
             "support": {
                 "issues": "https://github.com/WillBV/Nova-API/issues",
-                "source": "https://github.com/WillBV/Nova-API/tree/0.1.3"
+                "source": "https://github.com/WillBV/Nova-API/tree/0.1.11"
             },
-            "time": "2023-01-27T20:03:49+00:00"
+            "time": "2023-01-28T14:37:27+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
