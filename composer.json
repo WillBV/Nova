@@ -1,11 +1,11 @@
 {
     "name": "vaelar/nova",
     "description": "Nova API Project",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "type": "project",
     "license": "proprietary",
     "require": {
-      "vaelar/nova-api": "^0.1.3",
+      "vaelar/nova-api": "~0.1",
       "vlucas/phpdotenv": "^5.5"
     },
     "autoload": {
